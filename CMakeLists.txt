@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(Test)
+include_directories(include)
+add_executable(Test "src/Test.cpp")
+install(TARGETS Test DESTINATION "${PROJECT_SOURCE_DIR}/bin")

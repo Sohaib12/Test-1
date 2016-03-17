@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(MoleculeKit)
+include_directories(include)
+add_executable(MoleculeKit "src/cd.cpp")
+install(TARGETS MoleculeKit DESTINATION "${PROJECT_SOURCE_DIR}/bin")
