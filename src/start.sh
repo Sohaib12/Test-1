@@ -3,5 +3,5 @@
 g++ Test.cpp -o test
 ./test
 
-content=$(wget google.com -q -O -) 
-echo $content
+#content=$(wget google.com -q -O -) 
+#echo $content
