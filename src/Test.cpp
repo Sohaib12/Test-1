@@ -13,7 +13,7 @@ int main(int argc, char ** argv){
  	if (myReadFile.is_open()) {
  		while (!myReadFile.eof()) {
 	    myReadFile >> num;
-	    cout<<output;
+	    cout<<num;
 	 }	
 	}
 	myReadFile.close();
