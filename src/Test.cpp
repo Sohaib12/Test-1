@@ -17,7 +17,7 @@ int main(int argc, char ** argv){
 	 }	
 	}
 	myReadFile.close();
-	num = 1000;
+	num = 100;
 	for(int i=0; i<num; i++) {
 		std::cout << "Result is :" << i << std::endl;
 	}
