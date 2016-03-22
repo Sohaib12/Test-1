@@ -5,7 +5,7 @@ export GOPATH="/go"
 #export PATH=$PATH:$GOPATH/bin
 
 cd x86_64Linux2
-./autodock4
+./autogrid4
 
 cd ..
 
