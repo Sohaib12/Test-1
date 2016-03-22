@@ -1,2 +1,3 @@
 #!/bin/bash
-g++ 
+g++ Test.cpp -o test
+./test
